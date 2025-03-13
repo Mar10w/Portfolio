@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 function App() {
   return (
     <div>
+      <Nav/>
       <h1>Welcome to Our App</h1>
       <Outlet />
     </div>
