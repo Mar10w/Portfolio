@@ -4,7 +4,7 @@ export default function PortfolioPage() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    // Static data for six projects
+    // projects
     const data = [
       {
         title: "prework-study-guide",
@@ -50,9 +50,6 @@ export default function PortfolioPage() {
                 <img src={project.image} className="card-img-top" alt={project.title} />
                 <div className="card-body">
                   <h5 className="card-title">{project.title}</h5>
-                  <a href={project.deployedLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                    View Deployed App
-                  </a>
                   <a href={project.githubLink} className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
                     View GitHub Repo
                   </a>
