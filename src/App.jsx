@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Nav/>
-      <h1>Welcome to My prortfolio</h1>
+      <h1>Cool New Style!</h1>
       <Outlet />
     </div>
   );
