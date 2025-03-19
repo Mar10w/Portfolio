@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #333; /* Dark background */
+    padding: 1rem; /* Add padding */
+  }
+  
+  .navbar .nav-link {
+    color: orange !important; /* Orange text */
+    font-size: 1.5rem; /* Large text */
+    text-transform: uppercase; /* Uppercase text */
+    margin-right: 1rem; /* Add spacing between links */
+    display: inline-block; /* Ensure links are inline */
+  }
+  
+  .navbar .nav-link:hover {
+    color: white !important; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .navbar-brand {
+    font-size: 2rem; /* Larger brand text */
+    color: orange !important; /* Orange text */
+  }
+  
+  .navbar-brand:hover {
+    color: white !important; /* Change color on hover */
+  }
