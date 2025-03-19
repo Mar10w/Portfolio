@@ -15,7 +15,7 @@
   
   ## Installation
   this will be hosted at:
-  my github repository is located at:
+  my github repository is located at: https://github.com/Mar10w/Portfolio
   
   ## Usage
   this will be an example of my knowledge of coding in react, jsx and css.
