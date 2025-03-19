@@ -32,7 +32,12 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="container pt-4">
+    <div
+      className="container-fluid text-white min-vh-100 pt-4"
+      style={{
+        background: "linear-gradient(to bottom, #ff7f7f, #8b0000)", // Light red to dark red gradient
+      }}
+    >
       <h1>Contact</h1>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">

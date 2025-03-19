@@ -22,7 +22,7 @@ export default function Nav() {
           Contact  
         </Link>
         <Link key={5} className="nav-link text-light" to="/resume">
-          Resume
+          Linkedin
         </Link>
         </>
       ]}
